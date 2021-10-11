@@ -9,65 +9,65 @@
     <body> 
         <h1>Registration form</h1>
     </body>
-    <form action="/process" method="post">
-        <div>
-            <label> First Name: </label>
-            <input type="text" name="first_name">
-        </div> 
-        <div>
-            <label>Last Name: </label>
-            <input type="text" name="last_name">
-        </div>
-        <div>
-            <label>Email: </label>
-            <input Type="text" name="email">
-        </div>
-        <div>
-            <label>Password: </label>
-            <input type="text" name="password">
-        </div>
-        <div>
-            <label>Confirm Password:</label>
-            <input type="text" name="password">
-        </div>
-        <div>
-            <label>Birthday: </label>
-            <input type="date" name="dob">
-        </div>
-        <div>
-            <label>Gender Identity:</label>
-        </div>
-        <div>
+        <form action="/process" method="post">
+            <div>
+                <label> First Name: </label>
+                <input type="text" name="first_name">
+            </div> 
+            <div>
+                <label>Last Name: </label>
+                <input type="text" name="last_name">
+            </div>
+            <div>
+                <label>Email: </label>
+                <input Type="text" name="email">
+            </div>
+            <div>
+                <label>Password: </label>
+                <input type="text" name="password">
+            </div>
+            <div>
+                <label>Confirm Password:</label>
+                <input type="text" name="password">
+            </div>
+            <div>
+                <label>Birthday: </label>
+                <input type="date" name="dob">
+            </div>
+            <div>
+                <label>Gender Identity:</label>
+            </div>
+            <div>
                 <input type="radio" name="male" value="male" id="male"> 
-                <label for="male">Male<label>
+                <label for="male">Male</label>
                 <input type="radio" name="female" value="female" id="female">
                 <label for="female">female</label>
                 <input type="radio" name="Non-binary" value="Non-binary" id="Non-binary">
-                <label for="female">Non-binary</label>
+                <label for="Non-binary">Non-binary</label>
                 <input type="radio" name="I prefer not to answer" value="I prefer not to answer" id="I prefer not to answer">
-                <label for="female">I prefer not to answer</label>
-        </div>
-        <div>
-            <label>A short description of yourself</label>
-        </div>
-        <div>
-                <textarea name="summary" cols="20" rows="3"></textarea>
-        </div>
-        <div>
-            <label>Favorite Language:</label>
-            <select name="Gender Identity">
-                <option>Java</option>
-                <option>Python</option>
-                <option>HTML</option>
-                <option>I prefer not to answer</option>
-            </select>       
-        </div>
-        <div>
-            <input type="checkbox" name="offers" id="offers" checked>
-            <label for ="offers">Yes, I would like to receive periodic email updates</label>
-        </div>
-        <div>
-            <input type="submit" value="Create Account">
-        </div>
-    </form>
+                <label for="I prefer not to answer">I prefer not to answer</label>
+            </div>
+            <div>
+                <label>A short description of yourself</label>
+            </div>
+            <div>
+                    <textarea name="summary" cols="20" rows="3"></textarea>
+            </div>
+            <div>
+                <label>Favorite Language:</label>
+                <select name="Gender Identity">
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>HTML</option>
+                    <option>I prefer not to answer</option>
+                </select>       
+            </div>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for ="offers">Yes, I would like to receive periodic email updates</label>
+            </div>
+            <div>
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
 </html>
