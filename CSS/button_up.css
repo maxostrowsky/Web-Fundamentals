@@ -1,0 +1,29 @@
+#button{
+    border-width: 1px;
+    border-color: turquoise;
+    background-color: whitesmoke;
+    color: turquoise;
+    border-end-end-radius: 50px;
+    border-radius: 80px;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#plus{
+    border-radius: 50%;
+    border-color: turquoise;
+    background-color: turquoise;
+    color: white;
+    font-size: large;
+    margin-bottom: 10px;
+}
+#create{
+    background-color: dodgerblue;
+    color: ghostwhite;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 3px black;
+    width: 200px;
+    height: 35px;
+    font-size: large;
+}
