@@ -1,0 +1,51 @@
+.container{
+    width: 900px;
+    height: 890px;
+    background-color: red;
+}
+#header{
+    text-align: center;
+    font-size: larger;
+    text-align: center;
+}
+.topbox{
+    background-color: silver;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.topbox_image > img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.midbox{
+    background-color: #3c2364;
+    width: 900px;
+    height: 250px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.midbox_images > img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.botbox{
+    background-color:black;
+    width: 900px;
+    height: 250px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.botbox_images > img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
