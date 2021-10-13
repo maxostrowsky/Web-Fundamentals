@@ -11,11 +11,11 @@
 }
 #plus{
     border-radius: 50%;
-    border-color: turquoise;
     background-color: turquoise;
+    border-color: turquoise;
     color: white;
-    font-size: large;
     margin-bottom: 10px;
+    text-align: center;
 }
 #create{
     background-color: dodgerblue;
