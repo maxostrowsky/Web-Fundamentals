@@ -7,6 +7,8 @@
     text-align: center;
     font-size: larger;
     text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 .topbox{
     background-color: silver;
