@@ -1,0 +1,334 @@
+#container{
+    width: 1200px;
+    min-height: 300px;
+    font-family: 'Roboto',sans-serif;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Roboto',sans-serif;
+}
+.nav-title{
+    margin-left: 30px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.btn{
+    background-color: #17a2b8;
+    color: white;
+    border-width: 2px;
+    box-shadow: 3px 3px black;
+    width: 80px;
+    margin-left: 550px;
+}
+
+.main{
+    display: flex;
+}
+.col,{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    width: 60%;
+}
+
+.tleft{
+    width: 400px;
+    height: 400px;
+    border: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-width: 5px;
+    border: solid grey;
+    display: flex;
+}
+
+#topcolor{
+    background-color: #17a2b8;
+    width: 400px;
+    height: 75px;
+}
+#avatar > img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+#jane{
+    position: relative;
+    bottom: 50px;
+    left: 33px;
+}
+#ping > img{
+    height: 20px;
+    width: 15px;
+    position: relative;
+    bottom: 33px;
+    left: 33px;
+}
+.info{
+    word-spacing: 50%;
+    margin-top: 15px;
+    font-size: large;
+    position: relative;
+    left: 55px;
+    bottom: 70px;
+}
+#gear > img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 33px;
+    bottom: 56px;
+}
+#edit{
+    color: blue;
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+}
+.bleft{
+    width: 400px;
+    height: 200px;
+    border: solid grey;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+}
+.titleboxleft{
+    background-color: dimgrey;
+    width: 400px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.boxtitle{
+    margin-left: 50px;
+    align-items: center;
+}
+
+.bleftbox{
+    color: black;
+    font-weight: bold;
+}
+
+.bleftbox > p {
+    margin-left: 30px;
+}
+.bleftbox > h3{
+    margin-left: 30px;
+}
+
+.col-2{
+    display: flex;
+    background-color: white;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+.tright{
+    display: flex;
+}
+
+.trightbox{
+    border: solid;
+    border-color: grey;
+    width: 300px;
+    height: 200px;
+}
+
+.trightheader{
+    background-color:dimgrey;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    color:black;
+    font-size: 25px;
+    background:lightgray;
+    text-align: center;
+}
+
+.trightheader > h2{
+    margin-left: 10px;
+}
+
+.todds{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.todds > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.todds > #accept{ 
+    justify-content: flex-end;
+    margin-left: 80px;
+}
+
+.todds > #todd{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.philk{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.philk > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.philk > #accept{ 
+    justify-content: flex-end;
+    margin-left: 91px;
+}
+
+.philk > #phil{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.brightbox{
+    border: solid;
+    border-color: grey;
+    width: 300px;
+    height: 370px;
+    margin-top: 40px;
+}
+
+.brightheader{
+    background-color:dimgrey;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#oval{
+    width: 70px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    color:black;
+    font-size: 25px;
+    background:lightgray;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.connections{
+    display: flex;
+    flex-direction: column;
+}
+
+.adriend, .annej, .alaynet, .arryy{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.adriend > #adrien{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.annej > #anne{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.alaynet > #alayne{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.arryy > #arry{
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.adriend > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.annej > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.alaynet> img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.arryy > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}   
+
+.lrightbox{
+    border: solid dimgray;
+    width: 300px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.lrightbox > a{
+    color: blue;
+    margin-left: 20px;
+    font-weight: bold;
+}
