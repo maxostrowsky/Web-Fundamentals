@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    min-height: 300px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    width: 960px;
+    min-height: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.navbar > button{
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    border-width: 3px;
+    border: solid black;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.main{
+    display: flex;
+    width: 960px;
+    background-color: white;
+    min-height: 400px;
+    margin-left: 120px;
+}
+
+.col-1{
+    width: 75%;
+}
+
+.tlbox{
+    display: flex;
+    border: solid black;
+    margin-top: 30px;
+    width: 650px;
+    height: 175px;
+}
+
+.ninja{
+    text-align: center;
+    margin: 25px 0px 0px 15px;
+}
+
+.ninja-1{
+    font-size: 20px;
+    margin-left: 75px;
+    display: flex;
+    text-align: left;
+    width: 100px;
+}
+
+.ninja > button{
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    margin-top: 10px;
+    box-shadow: 3px 3px;
+    border: solid black;
+}
+
+.ninja-1{
+    margin-top: 60px;
+    width: 300px;
+    height: 40pxs;
+    font-size: 23px;
+}
+
+.blbox{
+    display: flex;
+    border: solid black;
+    margin-top: 30px;
+    width: 650px;
+    height: 175px;
+}
+
+.ninja-2{
+    margin-top: 50px;
+    width: 300px;
+    height: 40pxs;
+    font-size: 23px;
+    margin-left: 75px;
+}
+
+
+.col-2{
+    width: 25%;
+}
+
+.rtbox{
+    width: 234px;
+    height: 150px;
+    border: solid black;
+    margin-right: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rtbox > h2{
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.rtbox > button {
+    height: 35px;
+    margin-top: 30px;
+    width: 175px;
+    margin-left: 30px;
+    background-color: #93c47d;
+    font-weight: bold;
+    box-shadow: 3px 3px black;
+    border: solid black;
+}
