@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet"> 
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li><button id="city" onclick="clickOne(this)"><h2>Burbank</h2></button></li>
+                <li><button id="city" onclick="clickOne(this)"><h2>Chicago</h2></button></li>
+                <li><button id="city" onclick="clickOne(this)"><h2>Dallas</h2></button></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top">
+                <h1>San Jose</h1>
+                <p>show temperature in</p>
+                <select onchange="changeTempature(this)" class="tempchange" name="temperature" id="temperature">
+                    <option class="celsius">°C</option>
+                    <option class="fahrenheit">°F</option>
+                </select>
+            </div>
+            <hr>
+            <div class="weekdays">
+                <div class="blocks">
+                    <div class="today">
+                        <h2>Today</h2>
+                        <img src="assets/some_rain.png">
+                        <p>some rain</p>
+                    </div>
+                    <div class="temps">
+                        <h2 id="high">24°</h2>
+                        <h2 id="low">24°</h2>
+                    </div>
+                </div>
+
+                <div class="blocks">
+                    <div class="today">
+                        <h2>Tomorrow</h2>
+                        <img src="assets/some_sun.png">
+                        <p>some sun</p>
+                    </div>
+                    <div class="temps">
+                        <h2 id="high">24°</h2>
+                        <h2 id="low">24°</h2>
+                    </div>
+                </div>
+
+                <div class="blocks">
+                    <div class="today">
+                        <h2>Saturday</h2>
+                        <img src="assets/some_clouds.png">
+                        <p>some clouds</p>
+                    </div>
+                    <div class="temps">
+                        <h2 id="high">24°</h2>
+                        <h2 id="low">24°</h2>
+                    </div>
+                </div>
+
+                <div class="blocks">
+                    <div class="today">
+                        <h2>Sunday</h2>
+                        <img src="assets/some_rain.png">
+                        <p>some rain</p>
+                    </div>
+                    <div class="temps">
+                        <h2 id="high">24°</h2>
+                        <h2 id="low">24°</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <div><img src="assets/cookie.png" alt=""></div>
+            <div class="info">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button onclick="hide(this)">I Accept</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

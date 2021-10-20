@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar{
+    background-color: #9fc5f8;
+    width: 1200px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar > h1{
+    margin-left: 120px;
+}
+
+.navbar > ul, li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+#city{
+    background-color: #9fc5f8;
+    color: white;
+    border: solid #9fc5f8;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.main{
+    width: 1000px;
+    margin-left: 120px;
+}
+
+.top{
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+.top > p{
+    margin-left: 625px;
+    margin-right: 5px;
+}
+
+.weekdays{
+    display: flex;
+    margin-left: 15px;
+}
+
+.blocks{
+    background-color: lightgrey;
+    width: 225px;
+    height: 350px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.today{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.today > img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.today > img, h2, p{
+    margin-bottom: 15px;
+}
+
+.today > h2{
+    margin-top: 15px;
+}
+
+.temps{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.cookies{
+    width: 750px;
+    height: 120px;
+    display: flex;
+    margin-left: 225px;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    background-color: lightgray;
+    position: fixed;
+}
+
+.info{
+    margin: 0px 10px 0px 20px;
+    width: 500px;
+}
+
+.cookies > button{
+    width: 80px;
+    height: 25px;
+    background-color: #9fc5f8;
+    border: solid black;
+    box-shadow: 2px 3px black;
+    font-family: 'Balsamiq Sans', cursive;;
+}
+
+#high{
+    color: red;
+}
+
+#low{
+    color: blue;
+}
